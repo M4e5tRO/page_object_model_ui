@@ -35,4 +35,3 @@ class BasePage:
     def switch_desc(self):
         switch_desc = self.find(loc.switch_desc_loc)
         switch_desc.click()
-

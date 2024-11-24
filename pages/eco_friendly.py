@@ -24,6 +24,7 @@ def paging_names(func):
 
     return wrapper
 
+
 class EcoFriendly(BasePage):
     PAGE_URL = '/collections/eco-friendly.html'
 
